@@ -13,4 +13,25 @@
 
     // your code here
 
+    const mot = document.querySelector("#target")
+    const newMot = "Owned"
+    mot.replaceWith(newMot);
+
+    /*
+    // créer un nouvel élément relié à rien puis lui donner un id temporaire
+    var mot= document.createElement("span")
+    mot.id = "newSpan";
+
+    // ecrire le nouveau contenu
+    var mot_content = document.createTextNode("Owned");
+    mot.appendChild(mot_content);
+
+    //selectionner l'ID du doc HTML
+    var motReplace = document.getElementById("target");
+    var parent = motReplace.parentNode;
+
+    //remplacé un par l autre
+    parent.replaceChild(mot,motReplace);
+    */
+
 })();

@@ -10,7 +10,17 @@
 // You will have time to focus on it later.
 
 (() => {
+    document.getElementById("run").addEventListener("click", function In() {
     const keys = ["name", "species", "age", "gender", "color"];
     const values = ["Skitty", "cat", 9, "female", "tabby"];
+    const tab = new Array();
+
+    for (var i=0 ; i<keys.length; i++){
+        tab[i]= [keys[i],values[i]];
+    }
+    //console.log(tab);
+    const newObj = Object.fromEntries(tab);
+    console.log(newObj);
     // your code here
+    });
 })();

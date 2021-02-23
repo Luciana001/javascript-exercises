@@ -89,7 +89,7 @@
             },
         ];
 
-       
+        
         var valInit = 0;
         var somme = (people).reduce(function(accumulateur, ValeurCourante){
             return accumulateur + ValeurCourante["age"];

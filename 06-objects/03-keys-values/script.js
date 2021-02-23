@@ -10,13 +10,19 @@
 // You will have time to focus on it later.
 
 (() => {
-    const person = {
-        lastname: "Delnatte",
-        firstname: "Pierre-Antoine",
-        nickname: "Leny",
-        birthDate: "08-05-1985",
-        city: "Liège",
-        status: "married",
-    };
+    document.getElementById("run").addEventListener("click", function In() {
+        const person = {
+            lastname: "Delnatte",
+            firstname: "Pierre-Antoine",
+            nickname: "Leny",
+            birthDate: "08-05-1985",
+            city: "Liège",
+            status: "married",
+        };
+        console.log(Object.keys(person));
+        console.log(Object.values(person));
+        //console.log(Object)
+
+    });
     // your code here
 })();

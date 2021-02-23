@@ -12,5 +12,23 @@
 (function() {
 
     // your code here
+    
+    /* const container = document.querySelector(".content ");
+    console.log(container)
+    const mots = container.querySelectorAll("section.material > p")
+    console.log(mots);*/
+    const container = document.querySelector(".material")
+    
+    const mots = container.querySelectorAll("p.target")
+    //console.log(mots)
+    const newMot = "Owned"
+    
+    mots.forEach (( mot) => {
+        mot.replaceWith(newMot);
+    });
+    //console.log(mots)
+
+    
+
 
 })();
