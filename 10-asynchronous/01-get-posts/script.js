@@ -11,4 +11,21 @@
 
 (() => {
     // your code here
+    //console.log(utils);
+    function callB(error,array) { // fonction qui prend en parametres des elements de la lib
+        console.log(error)
+        console.log(array)
+
+    }
+    
+
+    document.getElementById("run").addEventListener("click", () => {
+        window.lib.getPosts(callB)
+            
+        
+
+
+
+        
+    });
 })();

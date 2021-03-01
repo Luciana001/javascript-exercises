@@ -11,4 +11,16 @@
 
 (() => {
     // your code here
+    document.getElementById("run").addEventListener("click", () => {
+
+    function callB(error,array) { // fonction qui prend en parametres des elements de la lib
+        if (error){
+            console.error(error)
+        } else
+        console.log(array)
+
+    }
+    window.lib.getPersons(callB)
+
+    });
 })();

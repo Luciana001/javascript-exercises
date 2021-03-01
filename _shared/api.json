@@ -4,13 +4,20 @@
       "id": 1,
       "name": "Cyclops",
       "alterEgo": "Scott Summers",
-      "abilities": ["Optic force blasts", "Master tactician"]
+      "abilities": [
+        "Optic force blasts",
+        "Master tactician"
+      ]
     },
     {
       "id": 2,
       "name": "Marvel Girl",
       "alterEgo": "Jean Grey",
-      "abilities": ["Telekinesis", "Telepathy", "Astral projection"]
+      "abilities": [
+        "Telekinesis",
+        "Telepathy",
+        "Astral projection"
+      ]
     },
     {
       "id": 3,
@@ -39,6 +46,172 @@
         "Cold and ice manipulation",
         "Ability to assume an enhanced physical form made of solid ice"
       ]
+    },
+    {
+      "name": "Violine",
+      "alterEgo": "Dynamique",
+      "abilities": [
+        "feu",
+        "glace"
+      ],
+      "id": 6
+    },
+    {
+      "name": "Violine",
+      "alterEgo": "Dynamique",
+      "abilities": [
+        "feu",
+        "glace"
+      ],
+      "id": 7
+    },
+    {
+      "name": "Violine",
+      "alterEgo": "Dynamique",
+      "abilities": [
+        "feu",
+        "glace"
+      ],
+      "id": 8
+    },
+    {
+      "name": "Violine",
+      "alterEgo": "Dynamique",
+      "abilities": [
+        "feu",
+        "glace"
+      ],
+      "id": 9
+    },
+    {
+      "name": "Violine",
+      "alterEgo": "Dynamique",
+      "abilities": [
+        "feu",
+        "glace"
+      ],
+      "id": 10
+    },
+    {
+      "name": "Violine",
+      "alterEgo": "Dynamique",
+      "abilities": [
+        "feu",
+        "glace"
+      ],
+      "id": 11
+    },
+    {
+      "name": "Violine",
+      "alterEgo": "Dynamique",
+      "abilities": [
+        "feu",
+        "glace"
+      ],
+      "id": 12
+    },
+    {
+      "name": "",
+      "alterEgo": "",
+      "abilities": [
+        ""
+      ],
+      "id": 13
+    },
+    {
+      "name": "",
+      "alterEgo": "",
+      "abilities": [
+        ""
+      ],
+      "id": 14
+    },
+    {
+      "name": "",
+      "alterEgo": "",
+      "abilities": [
+        ""
+      ],
+      "id": 15
+    },
+    {
+      "name": "",
+      "alterEgo": "",
+      "abilities": [
+        ""
+      ],
+      "id": 16
+    },
+    {
+      "name": "",
+      "alterEgo": "",
+      "abilities": [
+        ""
+      ],
+      "id": 17
+    },
+    {
+      "name": "Violine",
+      "alterEgo": "Dynamique",
+      "abilities": [
+        "feu",
+        "glace"
+      ],
+      "id": 18
+    },
+    {
+      "name": "Violine",
+      "alterEgo": "Dynamique",
+      "abilities": [
+        "feu",
+        "glace"
+      ],
+      "id": 19
+    },
+    {
+      "name": "Violine",
+      "alterEgo": "Dynamique",
+      "abilities": [
+        "feu",
+        "glace"
+      ],
+      "id": 20
+    },
+    {
+      "name": "Violine",
+      "alterEgo": "Dynamique",
+      "abilities": [
+        "feu",
+        "glace"
+      ],
+      "id": 21
+    },
+    {
+      "name": "Violine",
+      "alterEgo": "Dynamique",
+      "abilities": [
+        "feu",
+        "glace"
+      ],
+      "id": 22
+    },
+    {
+      "name": "Violine",
+      "alterEgo": "Dynamique",
+      "abilities": [
+        "feu",
+        "glace"
+      ],
+      "id": 23
+    },
+    {
+      "name": "Violine",
+      "alterEgo": "Dynamique",
+      "abilities": [
+        "feu",
+        "glace"
+      ],
+      "id": 24
     }
   ]
 }

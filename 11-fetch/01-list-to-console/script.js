@@ -11,4 +11,14 @@
 
 (() => {
     // your code here
+   
+    document.getElementById("run").addEventListener("click",async () => {
+        const response = await fetch(" http://localhost:3000/heroes")
+        const heroes = await response.json() //transforme le format de l'url en format json pour pouvoir le lire
+            /*.then(response => response.json())
+            .then(data => console.log(data))*/
+            console.log(heroes)
+    });
+
+
 })();

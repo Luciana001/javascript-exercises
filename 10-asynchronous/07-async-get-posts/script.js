@@ -11,4 +11,17 @@
 
 (() => {
     // your code here
+    
+    console.log("2")
+
+    document.getElementById("run").addEventListener("click", () => {
+        async function post() { // async = prommesse
+            const x = await window.lib.getPosts() // await = attend le retour de la promesse pour faire cet execution
+            console.log(x)
+            
+        }
+        post()
+        
+
+    });
 })();
